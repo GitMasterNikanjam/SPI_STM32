@@ -1,9 +1,25 @@
 #pragma once
 
+// ##############################################################################################
+// MCU Select:
+
+#include "mcu_select.h"
+
+/*
+    If there is not exist mcu_select.h at beside of this header file, Create it and put this bellow following content. 
+    Then select your desired MCU that want work with.
+*/
+// ----------------------------------------------------------------
+// mcu_select.h file:
+
 // Define the target MCU family here
-#define STM32F4
+// Uncomment the desired MCU family definition below:
+
 // #define STM32F1
+// #define STM32F4
 // #define STM32H7
+
+// ----------------------------------------------------------------
 
 // ###############################################################################################
 // Include libraries:
